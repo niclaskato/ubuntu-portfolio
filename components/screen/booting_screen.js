@@ -11,10 +11,14 @@ function BootingScreen(props) {
                     : <img width="40px" height="40px" className={" w-10 " + (props.visible ? " animate-spin " : "")} src="./themes/Yaru/status/process-working-symbolic.svg" alt="Ubuntu Process Symbol" />)}
             </div>
             <img width="200px" height="100px" className="md:w-1/5 w-1/2" src="./themes/Yaru/status/ubuntu_white_hex.svg" alt="Ubuntu Name" />
-            <div className="text-white mb-4">
-                <a className="underline" href="https://www.linkedin.com/in/vivek9patel/" rel="noreferrer noopener" target="_blank">linkedin</a>
-                <span className="font-bold mx-1">|</span>
-                <a href="https://github.com/vivek9patel/vivek9patel.github.io" rel="noreferrer noopener" target="_blank" className="underline">github</a>
+            <div className="text-white mb-4 flex">
+                <a href="https://www.linkedin.com/in/nicholas-kato-27b830250/" rel="noreferrer noopener" target="_blank">
+                    <img width="40px" src="https://img.icons8.com/fluency/344/linkedin.png" />
+                </a>
+                <span className="font-bold mx-1 mt-2">|</span>
+                <a href="https://github.com/niclaskato/" rel="noreferrer noopener" target="_blank">
+                    <img width="40px" src="https://img.icons8.com/color/344/github.png" />
+                </a>
             </div>
         </div>
     )

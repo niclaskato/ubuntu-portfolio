@@ -19,11 +19,11 @@ export class Trash extends Component {
             },
 
             {
-                name: "abandoned project",
+                name: "nicholas-react project",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "18BCP127 assignment name.zip",
+                name: "3490BG12OP assignment nk.zip",
                 icon: "./themes/filetypes/zip.png"
             },
             {

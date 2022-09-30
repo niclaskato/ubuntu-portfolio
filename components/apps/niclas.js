@@ -197,7 +197,7 @@ function Projects() {
         {
             name: "UbuntuOS Portfolio",
             date: "Apr 2021",
-            link: "https://github.com/vivek9patel/vivek9patel.github.io",
+            link: "https://github.com/niclaskato/ubuntu-portfolio",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],

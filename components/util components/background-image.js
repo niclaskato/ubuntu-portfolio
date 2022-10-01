@@ -12,7 +12,8 @@ export default function BackgroundImage(props) {
         "wall-8": "./images/wallpapers/wall-8.webp",
     };
     return (
-        <div style={{ backgroundImage: `url(${bg_images[props.img]})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPositionX: "center" }} className="bg-ubuntu-img absolute -z-10 top-0 right-0 overflow-hidden h-full w-full">
+        <div style={{ backgroundImage: `url(${bg_images[props.img]})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPositionX: "center" }} className="flex justify-center items-center bg-ubuntu-img absolute -z-10 top-0 right-0 overflow-hidden h-full w-full">
+            <img className="max-w-300 rounded-circle" src="./images/logos/white-round.png" alt="Nicholas Kato Logo" />
         </div>
     )
 }

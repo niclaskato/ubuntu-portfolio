@@ -1,6 +1,37 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
+import { techIcons } from "../util components/project_skill_icons";
 
+const {
+    html,
+    css,
+    bootstrap,
+    tailwindcss,
+    js,
+    jquery,
+    ts,
+    react,
+    next,
+    angular,
+    vue,
+    nuxt,
+    python,
+    ruby,
+    php,
+    node,
+    nest,
+    postgreSQL,
+    mySQL,
+    mongodb,
+    laravel,
+    redux,
+    graphQL,
+    apollo,
+    amazon,
+    nginx,
+    netlify,
+    webpack,
+} = techIcons;
 export class AboutNiclas extends Component {
 
     constructor() {
@@ -194,123 +225,138 @@ function Skills() {
 
 function Projects() {
     const project_list = [
+        // {
+        //     name: "UbuntuOS Portfolio",
+        //     date: "Apr 2021",
+        //     link: "https://github.com/niclaskato/ubuntu-portfolio",
+        //     description: [
+        //         "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+        //     ],
+        //     domains: ["javascript", "next.js", "tailwindcss"]
+        // },
         {
-            name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/niclaskato/ubuntu-portfolio",
+            name: "Anshinkai",
+            date: "Jul 2022",
+            link: "https://anshinkai-gr.jp/",
             description: [
-                "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+                "This site was developed to offer guarantor services to individuals seeking cosigners for housing leases.",
+                "Running web and application servers in the cloud to host dynamic websites using Amazon Web Service(AWS)."
             ],
-            domains: ["javascript", "next.js", "tailwindcss"]
+            domains: [laravel, php, mySQL, js, css]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+            name: "Baron Nakamura",
+            date: "Apr 2022",
+            link: "https://baron-nakamura.com/",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "It is for Cradle of the Universe.",
+                "Developed UIs using ReactJS with JavaScript and TypeScript.",
+                "Participated in the full lifecycle of development for company web applications using JS framework."
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: [react, redux, jquery, js, amazon]
         },
         {
-            name: "CodeConnect",
+            name: "Club MED",
             date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
+            link: "https://www.clubmed.co.jp/",
             description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+                "It specialises in luxury all-inclusive holidays.",
+                "Have the interface test so that web server handle all application requests without any service denial.",
             ],
-            domains: ["javascript", "tailwindcss"]
+            domains: [node, react, apollo, graphQL, nginx, amazon]
         },
         {
-            name: "Ad Free Spotify",
-            date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
+            name: "Elm Shelter",
+            date: "Aug 2021",
+            link: "https://elm-lang.jp/",
             description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+                "Elm-jp is a group of Elm users based in Japan who cherish the gentle feeling of admiring animals.",
+                "Have the usability testing so that menus, buttons, or Links to different pages on your site should be easily visible and consistent on all webpages.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: [ruby, tailwindcss, js, amazon]
         },
         {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
-            description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "Flutter banking app",
+            name: "Daellenbach Swich",
             date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
+            link: "https://daellenbach.ch/",
             description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+                "Their traditional Thun company has been a competent partner for all plastering and painting work for our customers since 1949.",
             ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
+            domains: [vue, ts, nuxt, nginx]
         },
         {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            name: "Optimum Results",
+            date: "Oct 2020",
+            link: "http://optimumresults.co.nz/",
             description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
+                "They’re paid search scientists who specialise in optimising Google and Bing Ads accounts.",
+                "Implemented SEO strategy (keywords, meta data, and link-building, and technical components)",
             ],
-            domains: ["react-native", "javascript"]
+            domains: [python, nginx, postgreSQL, amazon, bootstrap]
         },
         {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
+            name: "Harcouts Holiday",
+            date: "May 2020",
+            link: "https://www.harcourtsholidayhomes.co.nz/",
             description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
+                "They’re a small, local team who have the utmost respect and care when it comes to ensuring your holiday stay is the best one it possibly could be. All their guests enjoy an outstanding level of service that is second to none, as are their beautiful private holiday homes.",
             ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
+            domains: [nest, node, nginx, postgreSQL]
         },
         {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
+            name: "Random Shapes",
+            date: "Feb 2020",
+            link: "https://randomshapes.com/",
             description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
+                "They're Random Shapes, They Build Minimum Viable Products and Help Teams Grow.",
             ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
+            domains: [vue, webpack, nginx, netlify]
         },
         {
-            name: "Cleanliness Automation",
+            name: "LMFX",
             date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://lmfx.com/",
             description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
+                "When it comes to trading, LMFX is the broker you are looking for, that offers advanced institutional and retail trading conditions to a global audience. They have thought of everything you might need, to ensure a smooth hassle-free trading experience.",
             ],
+            domains: [next, react, jquery, node, bootstrap]
+        },
+        {
+            name: "DOMINOS",
+            date: "Oct 2019",
+            link: "https://www.dominos.com.jm/",
+            description: [
+                "Domino's Pizza Jamaica, Order Pizza Online for Delivery or Serve.",
+            ],
+            domains: [node, nest, angular, jquery, bootstrap]
+        }
+        ,
+        {
+            name: "Code Editor",
+            date: "Dec 2018",
+            link: "https://github.com/niclaskato/Editor.io/",
+            description: [
+                "Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage.",
+            ],
+            domains: [html, css, js, bootstrap]
+        },
+        {
+            name: "Bits-0f-C0de",
+            date: "Jun 2018",
+            link: "https://github.com/niclaskato/Bits-0f-C0de/",
+            description: [
+                "My personal blog page build with Next.js and Tailwind Css which takes the content from markdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.",
+            ],
+            domains: [html, css, js, bootstrap]
         }
     ];
-
-    const tag_colors = {
-        "javascript": "yellow-300",
-        "firebase": "red-600",
-        "firestore": "red-500",
-        "firebase auth": "red-400",
-        "chrome-extension": "yellow-400",
-        "flutter": "blue-400",
-        "dart": "blue-500",
-        "react-native": "purple-500",
-        "html5": "pink-600",
-        "sass": "pink-400",
-        "tensorflow": "yellow-600",
-        "django": "green-600",
-        "python": "green-200",
-        "codeforces-api": "gray-300",
-        "tailwindcss": "blue-300",
-        "next.js": "purple-600"
-    }
 
     return (
         <>
             <div className=" font-medium relative text-2xl mt-2 md:mt-5 mb-4">
                 Projects
             </div>
-            <iframe src="https://github.com/niclaskato/" title="nicholas kato" className='my-4 w-5/6 md:w-3/4' ></iframe>
-
+            {/* <iframe src="https://github.com/niclaskato/" title="nicholas kato" className='my-4 w-5/6 md:w-3/4' ></iframe> */}
             {
                 project_list.map((project, index) => {
                     const projectNameFromLink = project.link.split('/')
@@ -320,29 +366,23 @@ function Projects() {
                             <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
-                                        <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <div className="text-base md:text-2xl mr-2">{project.name}</div>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
                                 <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
                                     {
                                         project.description.map((desc, index) => {
-                                            return <li key={index} className="list-disc mt-1 text-gray-100">{desc}</li>;
+                                            return <li key={index} className="list-disc text-base md:text-lg mt-1 text-gray-100">{desc}</li>;
                                         })
                                     }
                                 </ul>
                                 <div className="flex flex-wrap items-start justify-start text-xs py-2">
                                     {
                                         (project.domains ?
-                                            project.domains.map((domain, index) => {
-                                                const borderColorClass = `border-${tag_colors[domain]}`
-                                                const textColorClass = `text-${tag_colors[domain]}`
-
-                                                return <span key={index} className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}>{domain}</span>
-                                            })
-
-                                            : null)
+                                            project.domains.map((domain, index) => (
+                                                <img style={{height: 35, margin: 5}} key={index} src={domain} />
+                                            )) : null)
                                     }
                                 </div>
                             </div>

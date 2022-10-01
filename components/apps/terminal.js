@@ -327,7 +327,7 @@ export class Terminal extends Component {
                     action: "lol",
                 });
 
-                result = "<img class=' w-2/5' src='./images/memes/used-sudo-command.webp' />";
+                result = "<img class='w-1/3' src='./images/memes/used-sudo-command.png' />";
                 break;
             default:
                 result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-nicholas, about-resume, todoist, trash, settings, sendmsg ]";

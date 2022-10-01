@@ -5,6 +5,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
+import { displayPortfolio } from './components/apps/portfolio';
 import { displayAboutNiclas } from './components/apps/niclas';
 import { displayAboutResume } from './components/apps/resume';
 import { displayTerminalCalc } from './components/apps/calc';
@@ -30,7 +31,7 @@ const apps = [
     },
     {
         id: "about-nicholas",
-        title: "About Nicholas Kato",
+        title: "About Nicholas",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -39,7 +40,7 @@ const apps = [
     },
     {
         id: "about-resume",
-        title: "Resume (Nicholas)",
+        title: "Resume",
         icon: './themes/Yaru/system/resume.png',
         disabled: false,
         favourite: true,
@@ -90,6 +91,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayGedit,
+    },
+    {
+        id: "portfolio",
+        title: "Portfolio",
+        icon: 'https://img.icons8.com/fluency/344/portfolio.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayPortfolio,
     },
     {
         id: "trash",

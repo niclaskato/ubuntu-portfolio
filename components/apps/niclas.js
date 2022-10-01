@@ -32,6 +32,7 @@ const {
     netlify,
     webpack,
 } = techIcons;
+
 export class AboutNiclas extends Component {
 
     constructor() {

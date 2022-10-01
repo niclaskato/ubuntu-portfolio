@@ -353,8 +353,8 @@ function Projects() {
 
     return (
         <>
-            <div className=" font-medium relative text-2xl mt-2 md:mt-5 mb-4">
-                Projects
+            <div className="font-bold relative text-2xl mt-2 md:mt-5 mb-4">
+            🌟Projects🌟
             </div>
             {/* <iframe src="https://github.com/niclaskato/" title="nicholas kato" className='my-4 w-5/6 md:w-3/4' ></iframe> */}
             {
@@ -363,10 +363,10 @@ function Projects() {
                     const projectName = projectNameFromLink[projectNameFromLink.length - 1]
                     return (
                         <a key={index} href={project.link} target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
-                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                            <div className="w-full p-5 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
-                                        <div className="text-base md:text-2xl mr-2">{project.name}</div>
+                                        <div className="text-base font-bold md:text-xl mr-2">{project.name}</div>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>

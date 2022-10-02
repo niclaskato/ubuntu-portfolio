@@ -495,7 +495,14 @@ export class Desktop extends Component {
 
     render() {
         return (
-            <div className={" h-full w-full flex flex-col items-end justify-start content-start flex-wrap-reverse pt-8 bg-transparent relative overflow-hidden overscroll-none window-parent"}>
+            <div onKeyDown={(e) => {
+                if (e.keyCode === 123) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+            }}
+                tabIndex="0"
+                className={"h-full w-full flex flex-col items-end justify-start content-start flex-wrap-reverse pt-8 bg-transparent relative overflow-hidden overscroll-none window-parent"}>
 
                 {/* Window Area */}
                 <div className="absolute h-full w-full bg-transparent" data-context="desktop-area">
@@ -532,7 +539,7 @@ export class Desktop extends Component {
                     )
                 }
 
-                { this.state.allAppsView ?
+                {this.state.allAppsView ?
                     <AllApplications apps={apps}
                         recentApps={this.app_stack}
                         openApp={this.openApp} /> : null}

@@ -26,20 +26,20 @@ export default function Meta() {
             <meta itemProp="description"
                 content="Nicholas Kato's (niclaskato) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
-            /* Twitter */
-            <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Nicholas Kato Portfolio - Full Stack Developer" />
-            <meta name="twitter:description"
+            /* linkedin */
+            <meta name="linkedin:card" content="summary" />
+            <meta name="linkedin:title" content="Nicholas Kato Portfolio - Full Stack Developer" />
+            <meta name="linkedin:description"
                 content="Nicholas Kato's (niclaskato) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="twitter:site" content="niclaskato" />
-            <meta name="twitter:creator" content="niclaskato" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="linkedin:site" content="niclaskato" />
+            <meta name="linkedin:creator" content="niclaskato" />
+            <meta name="linkedin:image:src" content="images/logos/me-perfect-transparent.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Nicholas Kato Portfolio - Full Stack Developer" />
             <meta name="og:description"
                 content="Nicholas Kato's (niclaskato) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
-            <meta name="og:url" content="http://niclaskato.github.io/" />
+            <meta name="og:image" content="images/logos/me-perfect-transparent.png" />
+            <meta name="og:url" content="https://nicholas-ubuntu.netlify.app/" />
             <meta name="og:site_name" content="Nicholas Kato Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />

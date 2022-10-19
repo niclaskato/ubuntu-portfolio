@@ -201,3 +201,19 @@ input[type=range].ubuntu-slider::-webkit-slider-thumb {
 .list-arrow {
     list-style: "📖";
 }
+
+@keyframes contact-icon-hover {
+	from {
+		width: 112px;
+	}
+
+	to {
+		width: 144px;
+	}
+}
+
+.contact-icon:hover {
+	width: 144px;
+	animation-name: contact-icon-hover;
+	animation-duration: 500ms;
+}

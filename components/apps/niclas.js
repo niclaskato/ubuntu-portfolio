@@ -147,7 +147,7 @@ function About() {
                     <br />( Mail me up <a className='text-pink-600 font-bold' href='mailto:niclas.kato92@gmail.com'> @niclas.kato92@gmail.com </a> )
                 </li>
                 <li className="mt-3 list-building text-xl font-sans"> I love building <span className="text-pink-600 font-bold">awesome websites and products</span> that need wonderful services.</li>
-                <li className="mt-3 list-time text-xl font-sans"> When I am free, I like to spend my time reading books, playing games or writing <a className="text-pink-600 font-bold" href="https://medium.com/@niclas.kato92/" target="_blank"> some blogs.</a></li>
+                <li className="mt-3 list-time text-xl font-sans"> When I am free, I like to spend my time reading books, playing games or writing <a className="text-pink-600 font-bold" href="https://medium.com/@nicholas-blog" target="_blank"> some blogs.</a></li>
             </ul>
             <br />
         </>

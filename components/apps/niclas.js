@@ -134,7 +134,7 @@ function About() {
     return (
         <>
             <div className="w-28 md:w-32 mt-8 bg-white rounded-full">
-                <img className="w-full rounded-circle" src="./images/logos/niclasmoji.png" alt="Nicholas Kato Logo" />
+                <img className="w-full rounded-circle border-2" src="./images/logos/niclasmoji.png" alt="Nicholas Kato Logo" />
             </div>
             <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>My name is <span className="font-bold">Nicholas Kato</span> ,</div>

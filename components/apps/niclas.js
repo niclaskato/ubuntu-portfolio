@@ -95,6 +95,11 @@ export class AboutNiclas extends Component {
                     <img className="w-5 md:w-5" alt="nicholas's projects" src="https://img.icons8.com/color/344/project.png" />
                     <span className="ml-1 md:ml-2 text-gray-50 text-lg">Projects</span>
                 </div>
+                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex'>
+                    <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" href="https://github.com/niclaskato/ubuntu-portfolio" target="_blank">
+                      Star <img className="w-5 md:w-5" alt="nicholas's projects" src="https://img.icons8.com/officel/512/star.png" />
+                    </a>
+                </div>
                 {/* <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
                     <iframe src="https://github.com/sponsors/niclaskato/button" title="Sponsor niclaskato" width={"100%"} height={"100%"} ></iframe>
                 </div> */}

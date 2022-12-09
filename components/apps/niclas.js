@@ -95,8 +95,8 @@ export class AboutNiclas extends Component {
                     <img className="w-5 md:w-5" alt="nicholas's projects" src="https://img.icons8.com/color/344/project.png" />
                     <span className="ml-1 md:ml-2 text-gray-50 text-lg">Projects</span>
                 </div>
-                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex'>
-                    <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" href="https://github.com/niclaskato/ubuntu-portfolio" target="_blank">
+                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex justify-center items-center'>
+                    <a class="flex justify-center items-center gap-1.5 w-4/5 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full" href="https://github.com/niclaskato/ubuntu-portfolio" target="_blank">
                       Star <img className="w-5 md:w-5" alt="nicholas's projects" src="https://img.icons8.com/officel/512/star.png" />
                     </a>
                 </div>
@@ -110,14 +110,14 @@ export class AboutNiclas extends Component {
     render() {
         return (
             <div className="w-full h-full flex bg-ub-cool-grey text-white select-none relative">
-                <div className="md:flex hidden flex-col w-1/5 md:w-1/6 text-sm overflow-y-auto windowMainScreen border-r border-black">
+                <div className="md:flex hidden flex-col w-1/5 md:w-1/6 text-sm overflow-y-auto windowMainScreen border-r border-black font-sans">
                     {this.renderNavLinks()}
                 </div>
                 <div onClick={this.showNavBar} className="md:hidden flex flex-col items-center justify-center absolute bg-ub-cool-grey rounded w-6 h-6 top-1 left-1">
                     <div className=" w-3.5 border-t border-white"></div>
                     <div className=" w-3.5 border-t border-white" style={{ marginTop: "2pt", marginBottom: "2pt" }}></div>
                     <div className=" w-3.5 border-t border-white"></div>
-                    <div className={(this.state.navbar ? " visible animateShow z-30 " : " invisible ") + " md:hidden text-xs absolute bg-ub-cool-grey py-0.5 px-1 rounded-sm top-full mt-1 left-0 shadow border-black border border-opacity-20"}>
+                    <div className={(this.state.navbar ? " visible animateShow z-30 " : " invisible ") + " md:hidden text-xs absolute bg-ub-cool-grey py-0.5 px-1 rounded-sm top-full mt-1 left-0 shadow border-black border border-opacity-20 font-sans"}>
                         {this.renderNavLinks()}
                     </div>
                 </div>

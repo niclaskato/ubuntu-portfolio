@@ -12,10 +12,10 @@ export class Gedit extends Component {
                     <a href="https://join.skype.com/invite/weRQ1pwK17jc/" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
                         <img className="w-28 cursor-pointer contact-icon" alt="nicholas skype" src="https://img.icons8.com/color/344/skype--v1.png" />
                     </a>
-                    <a href="https://t.me/niclaskato/" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
+                    <a href="https://t.me/niclas9202" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
                         <img className="w-28 cursor-pointer contact-icon" alt="nicholas telegram" src="https://img.icons8.com/color/344/telegram-app--v1.png" />
                     </a>
-                    <a href="https://discord.gg/pyV8MFabZM/" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
+                    <a href="https://discord.gg/w3V2Ee3Wg6" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
                         <img className="w-28 cursor-pointer contact-icon" alt="nicholas discord" src="https://img.icons8.com/avantgarde/344/discord-logo.png" />
                     </a>
                     <a href="https://www.linkedin.com/in/nicholas-kato-27b830250/" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
